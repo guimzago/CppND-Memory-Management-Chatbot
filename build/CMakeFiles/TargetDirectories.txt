@@ -1,0 +1,3 @@
+C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir
+C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build/CMakeFiles/edit_cache.dir
+C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build/CMakeFiles/rebuild_cache.dir

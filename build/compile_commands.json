@@ -1,0 +1,27 @@
+[
+{
+  "directory": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/membot.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\membot.dir\\src\\chatbot.cpp.obj -c C:\\Users\\guimz\\OneDrive\\Desktop\\Chat\\CppND-Memory-Management-Chatbot\\src\\chatbot.cpp",
+  "file": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/src/chatbot.cpp"
+},
+{
+  "directory": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/membot.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\membot.dir\\src\\chatgui.cpp.obj -c C:\\Users\\guimz\\OneDrive\\Desktop\\Chat\\CppND-Memory-Management-Chatbot\\src\\chatgui.cpp",
+  "file": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/src/chatgui.cpp"
+},
+{
+  "directory": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/membot.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\membot.dir\\src\\chatlogic.cpp.obj -c C:\\Users\\guimz\\OneDrive\\Desktop\\Chat\\CppND-Memory-Management-Chatbot\\src\\chatlogic.cpp",
+  "file": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/src/chatlogic.cpp"
+},
+{
+  "directory": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/membot.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\membot.dir\\src\\graphedge.cpp.obj -c C:\\Users\\guimz\\OneDrive\\Desktop\\Chat\\CppND-Memory-Management-Chatbot\\src\\graphedge.cpp",
+  "file": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/src/graphedge.cpp"
+},
+{
+  "directory": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/membot.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\membot.dir\\src\\graphnode.cpp.obj -c C:\\Users\\guimz\\OneDrive\\Desktop\\Chat\\CppND-Memory-Management-Chatbot\\src\\graphnode.cpp",
+  "file": "C:/Users/guimz/OneDrive/Desktop/Chat/CppND-Memory-Management-Chatbot/src/graphnode.cpp"
+}
+]
