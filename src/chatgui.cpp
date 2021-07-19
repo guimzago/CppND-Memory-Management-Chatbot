@@ -115,7 +115,7 @@ ChatBotPanelDialog::ChatBotPanelDialog(wxWindow *parent, wxWindowID id)
     // allow for PNG images to be handled
     wxInitAllImageHandlers();
 
-    //// STUDENT CODE
+    //// STUDENT CODE // task_1
     ////
 
     // create chat logic instance
@@ -137,7 +137,7 @@ ChatBotPanelDialog::~ChatBotPanelDialog()
     //// STUDENT CODE
     ////
 
-    //delete _chatLogic; //smart pointer não precisa de um descructor
+    //delete _chatLogic; //smart pointer não precisa de um descructor //esse era o bug
 
     ////
     //// EOF STUDENT CODE
