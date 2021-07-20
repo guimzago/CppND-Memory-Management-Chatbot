@@ -217,6 +217,18 @@ CMakeFiles/membot.dir/src/chatlogic.cpp.obj: \
  C:/wxWidgets/include/wx/imagiff.h C:/wxWidgets/include/wx/msw/bitmap.h \
  C:/wxWidgets/include/wx/msw/gdiimage.h C:/wxWidgets/include/wx/palette.h \
  C:/wxWidgets/include/wx/msw/palette.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\memory \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_raw_storage_iter.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\ext\concurrence.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\unique_ptr.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\shared_ptr.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\shared_ptr_base.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\allocated_ptr.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\shared_ptr_atomic.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\atomic_base.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\atomic_lockfree_defines.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\backward\auto_ptr.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\pstl\glue_memory_defs.h \
  C:\Users\guimz\OneDrive\Desktop\Chat\CppND-Memory-Management-Chatbot\src\chatlogic.h \
  C:\Users\guimz\OneDrive\Desktop\Chat\CppND-Memory-Management-Chatbot\src\chatgui.h \
  C:/wxWidgets/include/wx/wx.h C:/wxWidgets/include/wx/hash.h \
@@ -349,16 +361,4 @@ CMakeFiles/membot.dir/src/chatlogic.cpp.obj: \
  C:/wxWidgets/include/wx/generic/textdlgg.h \
  C:/wxWidgets/include/wx/valtext.h C:/wxWidgets/include/wx/filedlg.h \
  C:/wxWidgets/include/wx/msw/filedlg.h C:/wxWidgets/include/wx/mdi.h \
- C:/wxWidgets/include/wx/msw/mdi.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\memory \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_raw_storage_iter.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\ext\concurrence.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\unique_ptr.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\shared_ptr.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\shared_ptr_base.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\allocated_ptr.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\shared_ptr_atomic.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\atomic_base.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\atomic_lockfree_defines.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\backward\auto_ptr.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\pstl\glue_memory_defs.h
+ C:/wxWidgets/include/wx/msw/mdi.h

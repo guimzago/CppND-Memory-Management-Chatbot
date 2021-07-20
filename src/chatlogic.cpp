@@ -35,13 +35,13 @@ ChatLogic::~ChatLogic()
     // delete chatbot instance
     delete _chatBot;
 
-    // delete all nodes
+    // delete all nodes //task_3
  /*   for (auto it = std::begin(_nodes); it != std::end(_nodes); ++it)
     {
         //delete *it; //unique pointer vai se deleter sozinho // task_3
     }
 */
-    // delete all edges
+    // delete all edges 
     for (auto it = std::begin(_edges); it != std::end(_edges); ++it)
     {
         delete *it;
@@ -155,22 +155,23 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
 
                         if (parentToken != tokens.end() && childToken != tokens.end())
                         {
-                            // get iterator on incoming and outgoing node via ID search
+                            // get iterator on incoming and outgoing node via ID search //task_3
                             auto parentNode = std::find_if(_nodes.begin(), _nodes.end(), [&parentToken](std::unique_ptr<GraphNode> &node) { return node->GetID() == std::stoi(parentToken->second); }); //task_3
                             auto childNode = std::find_if(_nodes.begin(), _nodes.end(), [&childToken](std::unique_ptr<GraphNode> &node) { return node->GetID() == std::stoi(childToken->second); }); //task_3
 
                             // create new edge
-                            GraphEdge *edge = new GraphEdge(id);
-                            edge->SetChildNode((*childNode).get()); //task_3
-                            edge->SetParentNode((*parentNode).get()); //task_3
-                            _edges.push_back(edge);
+                            //GraphEdge *edge = new GraphEdge(id); //task_4
+                            std::unique_ptr<GraphEdge> edge = std::make_unique<GraphEdge>(id);
+                            edge->SetChildNode((*childNode).get()); //task_3 / task_4
+                            edge->SetParentNode((*parentNode).get()); //task_3 /task_4
+                            //_edges.push_back(edge); //task_4
 
                             // find all keywords for current node
                             AddAllTokensToElement("KEYWORD", tokens, *edge);
 
                             // store reference in child node and parent node
-                            (*childNode)->AddEdgeToParentNode(edge);
-                            (*parentNode)->AddEdgeToChildNode(edge);
+                            (*childNode)->AddEdgeToParentNode(edge.get()); //task_4
+                            (*parentNode)->AddEdgeToChildNode(std::move(edge)); //task_4
                         }
 
                         ////
